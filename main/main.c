@@ -346,8 +346,8 @@ void app_main(void)
     // 你的热点账号密码
     wifi_config_t wifi_config = {
         .sta = {
-            .ssid = "12345678",     // 你的热点名字
-            .password = "12345678", // 你的热点密码
+            .ssid = "YOUR_WIFI_SSID",     // 你的热点名字
+            .password = "YOUR_WIFI_PASSWORD", // 你的热点密码
         },
     };
 
